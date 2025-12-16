@@ -8,8 +8,7 @@
   "icon": "smiley",
   "keywords": [
     "first",
-    "block",
-    "example"
+    "block"
   ],
   "textdomain": "firstblock",
   "editorScript": "file:./build/index.js",

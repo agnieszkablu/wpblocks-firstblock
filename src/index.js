@@ -1,5 +1,7 @@
 import { registerBlockType } from '@wordpress/blocks';
 import { useBlockProps } from '@wordpress/block-editor';
+import './style.scss';
+import './editor.scss';
 
 registerBlockType('blocks-course/firstblock', {
   edit: function() {
