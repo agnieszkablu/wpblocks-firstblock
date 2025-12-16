@@ -12,5 +12,5 @@
     "example"
   ],
   "textdomain": "firstblock",
-  "editorScript": "file:./index.js"
+  "editorScript": "file:./build/index.js"
 }
