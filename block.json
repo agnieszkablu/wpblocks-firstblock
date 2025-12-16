@@ -1,0 +1,16 @@
+{
+  "apiVersion": 2,
+  "name": "blocks-course/firstblock",
+  "version": "1.0.0",
+  "title": "First Block",
+  "description": "A simple block plugin.",
+  "category": "text",
+  "icon": "smiley",
+  "keywords": [
+    "first",
+    "block",
+    "example"
+  ],
+  "textdomain": "firstblock",
+  "editorScript": "file:./index.js"
+}
