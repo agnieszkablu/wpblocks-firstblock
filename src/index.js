@@ -1,10 +1,13 @@
 import { registerBlockType } from '@wordpress/blocks';
+import { useBlockProps } from '@wordpress/block-editor';
 
 registerBlockType('blocks-course/firstblock', {
   edit: function() {
-    return <p className="my-custom-class">Hello from the editor!</p>;
+    const blockProps = useBlockProps();
+    return <p {...blockProps}>Hello from the editor!</p>;
   },
   save: function() {
-    return <p className="my-custom-class">Hello from the saved content!</p>;
+    const blockProps = useBlockProps.save();
+    return <p {...blockProps}>Hello from the saved content!</p>;
   }
 });
